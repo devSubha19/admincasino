@@ -1,0 +1,36 @@
+I want to fetch all the records same stockez username one by one and wants to show in table do you have any idea how to do that ?? 
+
+suppose here is the table
+
+agent_user_name  abc 
+amt 3
+stockez_username  1
+
+agent_user_name  def
+amt 4
+stockez_username  1
+
+agent_user_name ghi
+amt 2 
+stockez_username 1
+
+agent_user_name  new
+amt 4
+stockez_username  2
+
+
+agent_user_name  new1
+amt 4
+stockez_username  2
+
+it will show the data in table like this 
+
+agent_user_name   amt    stockez_username
+      abc                    3               1
+      def                    4               1
+      ghi                    2               1`
+total                       9
+    new                   4                2
+    new1                4                 2
+total                     8 
+
